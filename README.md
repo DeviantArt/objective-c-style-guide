@@ -1,8 +1,8 @@
-# NYTimes Objective-C Style Guide
+# deviantART Objective-C Style Guide
 
-This style guide outlines the coding conventions of the iOS team at The New York Times. We welcome your feedback in [issues](https://github.com/NYTimes/objetive-c-style-guide/issues), [pull requests](https://github.com/NYTimes/objetive-c-style-guide/pulls) and [tweets](https://twitter.com/nytimesmobile). Also, [we're hiring](http://jobs.nytco.com/job/New-York-iOS-Developer-Job-NY/2572221/).
+This style guide outlines the coding conventions of the iOS team at deviantART. We welcome your feedback in [issues](https://github.com/deviantART/objective-c-style-guide/issues), [pull requests](https://github.com/deviantART/objective-c-style-guide/pulls). Also, [we're hiring](http://deviantart.theresumator.com/).
 
-Thanks to all of [our contributors](https://github.com/NYTimes/objective-c-style-guide/contributors).
+This guide was initially based off the [style guide](https://github.com/NYTimes/objective-c-style-guide) from the New York Times. Thanks to all of [their contributors](https://github.com/NYTimes/objective-c-style-guide/contributors) for the groundwork behind this guide.
 
 ## Introduction
 
@@ -54,14 +54,13 @@ UIApplication.sharedApplication.delegate;
 ## Spacing
 
 * Indent using 4 spaces. Never indent with tabs. Be sure to set this preference in Xcode.
-* Method braces and other braces (`if`/`else`/`switch`/`while` etc.) always open on the same line as the statement but close on a new line.
+* Method braces and other braces (`if`/`else`/`switch`/`while` etc.) always open on the same line as the statement.
 
 **For example:**
 ```objc
 if (user.isHappy) {
 //Do something
-}
-else {
+} else {
 //Do something else
 }
 ```
